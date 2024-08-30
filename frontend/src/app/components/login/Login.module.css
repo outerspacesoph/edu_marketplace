@@ -1,0 +1,68 @@
+.loginContainer {
+  background-color: #07081a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.loginContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.5rem; /* 10 tailwind units */
+  margin-top: 2.5rem;
+}
+
+.logo {
+  height: 14rem; /* 56 tailwind units */
+  width: 14rem; /* 56 tailwind units */
+  margin-bottom: 2.5rem; /* 10 tailwind units */
+}
+
+.title {
+  font-size: 3.75rem; /* 6xl tailwind */
+  color: #f6df45;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #f6df45;
+  padding: 2rem 0; /* 8 tailwind units top and bottom */
+}
+
+/* CTA Button */
+.ctaBtn {
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.ctaBtn:hover {
+  transform: scale(1.05);
+}
+
+/* Inactive Button */
+.inactivebtn {
+  background-color: #dd3b6f;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.inactivebtn:hover {
+  background-color: #fe57a6;
+}
+
+/* Active Button */
+.activebtn {
+  background-color: #7366ea;
+  color: #fff;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
